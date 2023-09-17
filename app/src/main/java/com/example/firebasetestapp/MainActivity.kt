@@ -1,10 +1,11 @@
-package com.example.happybirthdaytutorial
+package com.example.firebasetestapp
 
 import android.app.Activity
 import android.os.Bundle
 import android.widget.TextView
 import android.widget.Button
 import android.widget.Toast
+import com.example.firebasetestapp.R
 
 class MainActivity : Activity() {
     private var numberToSend: Int = 0

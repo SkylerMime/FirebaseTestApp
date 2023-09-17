@@ -1,4 +1,4 @@
-package com.example.happybirthdaytutorial.ui.theme
+package com.example.firebasetestapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
