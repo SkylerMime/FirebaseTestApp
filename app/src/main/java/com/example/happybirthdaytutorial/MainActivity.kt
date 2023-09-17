@@ -4,6 +4,7 @@ import android.app.Activity
 import android.os.Bundle
 import android.widget.TextView
 import android.widget.Button
+import android.widget.Toast
 
 class MainActivity : Activity() {
     private var numberToSend: Int = 0
@@ -31,6 +32,13 @@ class MainActivity : Activity() {
         val decrementButton: Button = findViewById(R.id.decrementButton)
         decrementButton.setOnClickListener {
             updateNumber(false)
+        }
+
+        val sendButton: Button = findViewById(R.id.databaseSendButton)
+        sendButton.setOnClickListener {
+            val text = getString(R.string.message_sent)
+            val toast = Toast.makeText(this, text, Toast.LENGTH_SHORT)
+            toast.show()
         }
     }
 }

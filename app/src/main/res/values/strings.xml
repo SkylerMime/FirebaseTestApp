@@ -4,4 +4,5 @@
     <string name="decrement">MINUS 1</string>
     <string name="increment">ADD 1</string>
     <string name="current_count">Current Count</string>
+    <string name="message_sent">Message Sent</string>
 </resources>
