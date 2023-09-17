@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Happy Birthday Tutorial</string>
+    <string name="send_to_database">Send</string>
+    <string name="decrement">MINUS 1</string>
+    <string name="increment">ADD 1</string>
+    <string name="current_count">Current Count</string>
+</resources>
