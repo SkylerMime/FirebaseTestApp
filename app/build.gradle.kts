@@ -73,6 +73,8 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     // Firebase BoM
     implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
-    // realtime database library
-    implementation("com.google.firebase:firebase-database-ktx:20.2.2")
+    // realtime database library Java
+    // implementation("com.google.firebase:firebase-database:20.2.2")
+    // cloud firestore library Java
+    implementation("com.google.firebase:firebase-firestore:24.8.1")
 }
