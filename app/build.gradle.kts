@@ -77,4 +77,6 @@ dependencies {
     // implementation("com.google.firebase:firebase-database:20.2.2")
     // cloud firestore library Java
     implementation("com.google.firebase:firebase-firestore:24.8.1")
+    // cloud storage library
+    implementation("com.google.firebase:firebase-storage:20.2.1")
 }
